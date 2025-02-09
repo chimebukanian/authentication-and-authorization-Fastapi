@@ -1,0 +1,51 @@
+# Python bytecode and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment (venv)
+venv/
+env/
+
+# Environment variables and secrets
+.env
+*.env
+
+# SQLite database files
+*.db
+*.sqlite3
+
+# Logs and temporary files
+logs/
+*.log
+*.pid
+*.seed
+*.bak
+
+# Python package files
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Jupyter Notebook checkpoints (if using Jupyter)
+.ipynb_checkpoints/
+
+# Editor and IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MacOS system files
+.DS_Store
+
+# Pytest cache
+.pytest_cache/
+
+# Migrations (optional, if using Alembic)
+migrations/
+
+# Docker files (if using Docker)
+docker-compose.override.yml
